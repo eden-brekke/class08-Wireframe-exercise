@@ -3,7 +3,7 @@ header {
   background-color: #444;
   height: 100px;
   margin-bottom: 30px;
-  width: auto;
+  width: 100%;
 }
 
 nav {
@@ -14,11 +14,14 @@ nav {
 header img {
   float: left;
   margin-top: 15px;
+  padding-left: 50px; 
 }
 
 header ul{
   display: flex;
   justify-content: space-evenly;
+  padding-left: 20px;
+  padding-right: 200px;
 }
 
 header ul li {
